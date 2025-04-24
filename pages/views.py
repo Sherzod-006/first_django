@@ -11,3 +11,7 @@ def about(request):
 
 def support(request):
     return render(request, 'support.html')
+
+
+def services(request):
+    return render(request, 'servises.html')
